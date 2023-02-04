@@ -1,9 +1,20 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
+import Banner from 'react-js-banner';
+import Exhibit from 'react-exhibit';
 
 function App() {
   return (
-    <div className="App">
+    <Banner
+      title="Sextant"
+    />
+  );
+}
+
+export default App;
+
+/*
+<div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -19,7 +30,4 @@ function App() {
         </a>
       </header>
     </div>
-  );
-}
-
-export default App;
+*/
